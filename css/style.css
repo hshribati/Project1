@@ -40,7 +40,21 @@ body {
   z-index: 100;
 }
 
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .top-right-image {
+    width: 120px; /* Adjusts the size on smaller screens */
+  }
 
+  .container {
+    flex-direction: column; /* Stacks items vertically on mobile */
+    gap: 10px; /* Reduces space between elements */
+  }
+
+  .logo {
+    width: 80px; /* Reduces logo size on smaller screens */
+  }
+}
 
 h1 {
   font-family: 'Amiri', serif;
@@ -97,7 +111,6 @@ button:hover {
   background: #b89b5e; /* A darker gold or gray */
   box-shadow: none; /* Removes the glowing effect */
 }
-
 
 #confirmation-message {
   display: none;
