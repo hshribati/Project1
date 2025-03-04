@@ -8,25 +8,28 @@ body {
   padding: 20px;
 }
 
+.container {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Aligns logo and form vertically */
+  justify-content: center; /* Centers everything on the page */
+  gap: 20px; /* Adds space between logo and form */
+}
+
 .logo-container {
-  position: absolute; /* Positions the logo freely */
-  left: 20px; /* Moves it to the left */
-  top: 50%; /* Centers it vertically */
-  transform: translateY(-50%); /* Ensures it's exactly centered */
-  text-align: left;
+  flex-shrink: 0; /* Prevents the logo from shrinking */
 }
 
 .logo {
-  width: 120px; /* Adjust the size of the logo */
+  width: 100px; /* Adjust the size of the logo */
   height: auto;
   display: block;
 }
 
-.verse {
-  font-size: 16px;
-  color: #DAA520;
-  margin-top: 10px; /* Adds spacing below the logo */
+.form-container {
+  max-width: 400px; /* Ensures the form doesn't stretch too much */
+  width: 100%;
 }
+
 
 
 h1 {
