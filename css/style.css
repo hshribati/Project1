@@ -32,11 +32,12 @@ body {
 
 .top-right-image {
   position: absolute;
-  top: 10px; /* Adjust the distance from the top */
-  right: 10px; /* Adjust the distance from the right */
-  width: 180px; /* Adjust the size as needed */
+  top: 10px;
+  right: 10px;
+  width: 180px; /* Set a base width for larger screens */
   height: auto; /* Keeps the aspect ratio */
-  z-index: 100; /* Ensures it stays above other elements */
+  max-width: 100%; /* Ensures it resizes on smaller screens */
+  z-index: 100;
 }
 
 
