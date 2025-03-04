@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qur'an Class Sign-Up</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
+    <h2>Join Our Qur'an Class & Strengthen Your Connection with Allah</h2>
+  </header>
+  
+  <main>
+    <form id="signup-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      
+      <label for="class-type">Class Type:</label>
+      <select id="class-type" name="class-type" required>
+        <option value="beginners">Beginners</option>
+        <option value="tajweed">Tajweed</option>
+        <option value="hifz">Hifz</option>
+        <option value="advanced">Advanced Recitation</option>
+      </select>
+      
+      <label for="learning-mode">Preferred Learning Mode:</label>
+      <select id="learning-mode" name="learning-mode" required>
+        <option value="online">Online</option>
+        <option value="in-person">In-Person</option>
+      </select>
+      
+      <button type="submit">Register Now</button>
+    </form>
+    
+    <p id="confirmation-message" style="display:none; color:green; font-weight:bold;"></p>
+  </main>
+  
+  <footer>
+    <p>"And We have certainly made the Qur’an easy for remembrance, so is there any who will remember?" (Quran 54:17)</p>
+    <p>"The best among you are those who learn the Qur’an and teach it." (Bukhari)</p>
+    <p>Contact us: info@quranclass.com | WhatsApp: +123456789</p>
+  </footer>
+</body>
+</html>
