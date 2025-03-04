@@ -50,11 +50,10 @@ form {
   background: rgba(255, 255, 255, 0.15);
   padding: 20px;
   border-radius: 10px;
-  border: 2px solid #808080; /* Gray border */
+  border: 2px solid #000000; /* Solid black border */
   width: 90%;
   max-width: 400px;
   margin: auto;
-  box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.7); /* Gray glow effect */
 }
 
 label {
