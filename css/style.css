@@ -46,6 +46,17 @@ body {
     width: 120px; /* Adjusts the size on smaller screens */
   }
 
+  @media (min-width: 1024px) {
+  /* Styles for larger screens */
+  .container {
+    gap: 30px; /* More space between logo and form */
+  }
+  .logo {
+    width: 200px; /* Increase logo size on larger screens */
+  }
+}
+
+
   .container {
     flex-direction: column; /* Stacks items vertically on mobile */
     gap: 10px; /* Reduces space between elements */
