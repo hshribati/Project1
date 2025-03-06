@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Poppins:wght@400;600&display=swap');
 
 body {
-  background: linear-gradient(to bottom, #006400, #003300), url('islamic-pattern.png') repeat;
+  background: linear-gradient(to bottom, #006400, #003300); /* Only the gradient */
   color: #fff;
   font-family: 'Merriweather', serif;
   text-align: center;
