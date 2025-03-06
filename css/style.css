@@ -9,10 +9,10 @@ body {
 }
 
 .container {
-  display: flex; /* Enables flexbox layout */
-  align-items: center; /* Aligns logo and form vertically */
-  justify-content: center; /* Centers everything on the page */
-  gap: 20px; /* Adds space between logo and form */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 10px; /* Adds space between logo and form */
 }
 
 .logo-container {
