@@ -40,22 +40,11 @@ body {
   z-index: 100;
 }
 
-
+/* Media query for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
   .top-right-image {
     width: 120px; 
   }
-
-  @media (min-width: 1024px) {
-  
-  .container {
-    gap: 30px; /* More space between logo and form */
-  }
-  .logo {
-    width: 200px; 
-  }
-}
-
 
   .container {
     flex-direction: column; 
@@ -64,6 +53,17 @@ body {
 
   .logo {
     width: 80px; 
+  }
+}
+
+/* Media query for larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .container {
+    gap: 30px; /* More space between logo and form */
+  }
+
+  .logo {
+    width: 200px; 
   }
 }
 
