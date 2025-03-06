@@ -6,7 +6,10 @@ body {
   font-family: 'Merriweather', serif;
   text-align: center;
   padding: 20px;
+  min-height: 100vh; 
+  box-sizing: border-box; 
 }
+
 
 .container {
   display: flex; 
