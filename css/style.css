@@ -127,20 +127,14 @@ button:hover {
 }
 
 #confirmation-message {
-  display: none;
-  margin-top: 20px;
-  padding: 10px;
-  background: rgba(218, 165, 32, 0.2);
-  color: #F5F5DC;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-#confirmation-message {
   display: none; /* Initially hidden */
   color: green;
   font-weight: bold;
   margin-top: 20px;
+  padding: 10px;
+  background: rgba(218, 165, 32, 0.2); /* Light gold background */
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 footer {
