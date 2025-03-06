@@ -3,7 +3,7 @@
 body {
   background: url('islamic-pattern.png') repeat, linear-gradient(to bottom, #006400, #003300);
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Merriweather', serif;
   text-align: center;
   padding: 20px;
 }
