@@ -43,21 +43,35 @@ body {
   z-index: 100;
 }
 
-/* Media query for smaller screens (max-width: 768px) */
-@media (max-width: 768px) {
+/* Default (Mobile-First) styles already apply here */
+
+/* Tablet (screens 768px and wider) */
+@media (min-width: 768px) {
   .top-right-image {
     width: 120px; 
   }
 
   .container {
-    flex-direction: column; 
-    gap: 10px; 
+    flex-direction: row; /* Changes back to row layout */
+    gap: 20px; /* Adjust spacing */
   }
 
   .logo {
-    width: 80px; 
+    width: 120px; 
   }
 }
+
+/* Desktop (screens 1024px and wider) */
+@media (min-width: 1024px) {
+  .container {
+    gap: 30px; /* More space between logo and form */
+  }
+
+  .logo {
+    width: 200px; 
+  }
+}
+
 
 /* Media query for larger screens (min-width: 1024px) */
 @media (min-width: 1024px) {
