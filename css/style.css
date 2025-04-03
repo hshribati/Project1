@@ -3,7 +3,7 @@
 body {
   background: linear-gradient(to bottom, #006400, #003300); /* Only the gradient */
   color: #fff;
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', 'Georgia', serif;
   text-align: center;
   padding: 20px;
   min-height: 100vh; 
